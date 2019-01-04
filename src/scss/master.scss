@@ -1,0 +1,28 @@
+.master-page {
+
+  .callout {
+    border: none;
+    border-top: 1px solid map-get($foundation-palette, 'primary');
+    border-bottom: 1px solid map-get($foundation-palette, 'primary');
+
+    margin-bottom: 0px;
+  }
+
+  section.introduction {
+    .image-container {
+      margin-bottom: 20px;
+
+      &.designer {
+        background: url('img/introduction-designer.jpg') right center;
+        background-size: cover;
+        height: calc(100vh / 2);
+      }
+
+      &.programmer {
+        background: url('img/introduction-programmer.jpg') left center;
+        background-size: cover;
+        height: calc(100vh / 1.5);
+      }
+    }
+  }
+}
