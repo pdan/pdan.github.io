@@ -4831,6 +4831,9 @@ html.is-reveal-open {
 .contact-page section.contact a.telegram {
   background-color: #0088cc; }
 
+.contact-page section.contact a.github {
+  background-color: #333; }
+
 .contact-page section.contact a {
   border-radius: 3px; }
 
