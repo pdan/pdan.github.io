@@ -4756,11 +4756,27 @@ html.is-reveal-open {
     .show-for-portrait {
       display: block !important; } }
 
+.top-bar {
+  background-color: #555555; }
+  .top-bar ul {
+    background-color: transparent; }
+  .top-bar a {
+    color: #f7f7f7; }
+  .top-bar li.menu-text {
+    color: #f7f7f7;
+    background-color: #333333;
+    border-radius: 8px; }
+
 .master-page .callout {
   border: none;
-  border-top: 1px solid #1779ba;
-  border-bottom: 1px solid #1779ba;
+  border-top: 1px solid #13413b;
+  background-color: #54CCBE;
   margin-bottom: 0px; }
+  .master-page .callout h5 {
+    color: #ddf5f2;
+    margin-bottom: 0px; }
+  .master-page .callout small {
+    color: #257c72; }
 
 .master-page section.introduction .image-container {
   margin-bottom: 20px; }
@@ -4775,9 +4791,13 @@ html.is-reveal-open {
 
 .cv-page > .callout {
   border: none;
-  border-top: 1px solid #3adb76; }
+  border-top: 1px solid #13413b;
+  background-color: #54CCBE; }
+  .cv-page > .callout h5 {
+    color: #ddf5f2;
+    margin-bottom: 0px; }
   .cv-page > .callout small {
-    color: #3adb76; }
+    color: #257c72; }
 
 .cv-page section {
   padding: 30px 0px; }
@@ -4859,6 +4879,16 @@ html.is-reveal-open {
 /* Medium only */
 /* Large and up */
 /* Large only */
+.portfolio-page > .callout {
+  border: none;
+  border-top: 1px solid #13413b;
+  background-color: #54CCBE; }
+  .portfolio-page > .callout h5 {
+    color: #ddf5f2;
+    margin-bottom: 0px; }
+  .portfolio-page > .callout small {
+    color: #257c72; }
+
 section.projects .label {
   border-radius: 13px;
   border-top-left-radius: 3px;
@@ -4912,3 +4942,22 @@ section.projects .fannvarco .gallery .cell {
 /* Medium only */
 /* Large and up */
 /* Large only */
+.micro-blog-page > .callout {
+  border: none;
+  border-top: 1px solid #13413b;
+  background-color: #54CCBE; }
+  .micro-blog-page > .callout h5 {
+    color: #ddf5f2;
+    margin-bottom: 0px; }
+  .micro-blog-page > .callout small {
+    color: #257c72; }
+
+.contact-page > .callout {
+  border: none;
+  border-top: 1px solid #13413b;
+  background-color: #54CCBE; }
+  .contact-page > .callout h5 {
+    color: #ddf5f2;
+    margin-bottom: 0px; }
+  .contact-page > .callout small {
+    color: #257c72; }

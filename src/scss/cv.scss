@@ -2,10 +2,14 @@
 
   >.callout {
     border: none;
-    border-top: 1px solid map-get($foundation-palette, 'success');
-
+    border-top: 1px solid darken(#54CCBE, 40%);
+    background-color: #54CCBE;
+    h5 {
+      color: lighten(#54CCBE, 35%);
+      margin-bottom: 0px;
+    }
     small {
-      color: map-get($foundation-palette, 'success');
+      color: darken(#54CCBE, 25%);
     }
   }
 
