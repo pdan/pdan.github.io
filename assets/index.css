@@ -4856,3 +4856,56 @@ html.is-reveal-open {
 /* Medium only */
 /* Large and up */
 /* Large only */
+section.projects .label {
+  border-radius: 13px;
+  border-top-left-radius: 3px;
+  line-height: 13px; }
+  section.projects .label.secondary {
+    border: 1px solid #ebebeb;
+    color: #888888;
+    background-color: #f7f7f7; }
+
+section.projects .gallery {
+  margin-bottom: 20px; }
+  section.projects .gallery .cell {
+    border: 5px solid #555555;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px; }
+    section.projects .gallery .cell img {
+      width: 100%; }
+
+section.projects .novinchoobco .gallery .cell {
+  max-height: 150px;
+  overflow: hidden; }
+
+section.projects .pasargad-gateway .gallery .cell {
+  max-height: 150px;
+  overflow: hidden; }
+
+section.projects .eshterak .gallery .cell {
+  max-height: 150px;
+  overflow: hidden; }
+
+section.projects .fannvarco .gallery .cell {
+  max-height: 150px;
+  overflow: hidden; }
+
+/* Small only */
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  section.projects .general-side {
+    margin-top: 8px;
+    padding-right: 20px;
+    text-align: right; }
+  section.projects .menu {
+    flex-direction: column;
+    margin-top: 10px; }
+    section.projects .menu li {
+      color: #b3b3b3; }
+      section.projects .menu li.comma {
+        display: none; } }
+
+/* Medium only */
+/* Large and up */
+/* Large only */
