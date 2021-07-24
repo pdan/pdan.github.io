@@ -1,0 +1,57 @@
+.top-bar {
+  background-color: #555555;
+
+  ul {
+    background-color: transparent;
+  }
+
+  a {
+    color: #f7f7f7;
+
+    
+  }
+
+  li.menu-text {
+    color: #f7f7f7;
+    background-color: #333333;
+    border-radius: 8px;
+  }
+
+
+}
+
+.master-page {
+
+  .callout {
+    border: none;
+    border-top: 1px solid darken(#54CCBE, 40%);
+    background-color: #54CCBE;
+    h5 {
+      color: lighten(#54CCBE, 35%);
+      margin-bottom: 0px;
+    }
+    small {
+      color: darken(#54CCBE, 25%);
+    }
+
+    margin-bottom: 0px;
+  }
+
+  section.introduction {
+    .image-container {
+      margin-bottom: 20px;
+
+      &.designer {
+        background: url('img/introduction-designer.jpg') center center;
+        background-size: cover;
+        height: calc(100vh / 2);
+      }
+
+      &.programmer {
+        background: url('img/introduction-programmer.jpg') center center;
+        background-size: cover;
+        height: calc(100vh / 1.5);
+      }
+    }
+  }
+}
